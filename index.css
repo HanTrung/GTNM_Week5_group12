@@ -374,3 +374,9 @@
   color: var(--color-black);
   font-family: var(--font-inter);
 }
+a {
+  margin-top: 50px; /* Thay đổi giá trị này để điều chỉnh khoảng cách từ trên xuống */
+  margin-bottom: 50px; /* Thay đổi giá trị này để điều chỉnh khoảng cách từ dưới lên */
+  display: inline-block; /* Đảm bảo chiều rộng của thành phần chỉ là chiều rộng của nội dung bên trong */
+  font-size: 50px;
+}
